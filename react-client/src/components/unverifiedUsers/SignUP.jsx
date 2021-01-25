@@ -47,7 +47,7 @@ class SignUp extends React.Component {
       },
     });
 
-    window.location ='/'
+
   }
   //handle the changes in the input field when we enter it
   handleChangeemail(event) {

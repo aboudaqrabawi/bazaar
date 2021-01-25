@@ -42,13 +42,15 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(express.json());
 app.use(express.static(__dirname + "/../react-client/dist"));
-
-var MyDataBase = mysql.createConnection({
-      host     : 'localhost',
-      user     : 'root',
-      password : 'password',
-      database: 'faz3etak'
+var MyDataBase  = mysql.createPool({
+  host :'us-cdbr-east-02.cleardb.com',
+      user: 'bd50aba9b49a3d',
+      password:'a93c1eef',
+      database:'heroku_af8b3edbbdd529b'
     });
+
+
+
 
     //updates our database
     app.put("/update", function(req, res) {

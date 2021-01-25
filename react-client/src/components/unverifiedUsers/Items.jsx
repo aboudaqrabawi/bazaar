@@ -118,7 +118,7 @@ class Items extends React.Component {
                       onChange={this.onChangeCategory.bind(this)}
                     >
                       <option value=""></option>
-                      <option id="option">choose category</option>
+
 
                       <option id="option" value="cars">
                         cars
