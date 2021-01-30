@@ -16,21 +16,23 @@ Author Info
 this app is for every one who want to to advertise something to sell you can Display categories of product and  Show Product Details .More over you can Add any product to the profile and delete it or update if you want.
 ​
 # How To Use
-  ## Installation
+  ## 1.Installation
 In the project directory, you can run:
 ​
-# node modules
+# a. node modules
 ```bash
 npm install
 ```
-# To open the server on the heroku
+#  2. open the server 
 ```bash
 npm run server-dev
 ```
- # To open the front end  on the browser
+ #  3. open the front end  
 ```bash
 npm run react-dev
 ```
+#  4.  open the website
+type in the broweser : http://localhost:3000 
 ​
 # References
 https://reactjs.org/
